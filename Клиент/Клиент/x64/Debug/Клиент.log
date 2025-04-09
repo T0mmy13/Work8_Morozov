@@ -1,3 +1,17 @@
 ﻿  Клиент.cpp
-E:\Projects\Visual Studio\ВВ\8\Клиент\Клиент\Клиент.cpp(48,61): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  Клиент.vcxproj -> E:\Projects\Visual Studio\ВВ\8\Клиент\x64\Debug\Клиент.exe
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(10,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(10,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "SERVER_IP"
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(10,24): error C2059: синтаксическая ошибка: =
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(36,24): error C2065: SERVER_IP: необъявленный идентификатор
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(36,5): error C2660: inet_pton: функция не принимает 2 аргументов
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ws2tcpip.h(573,1):
+       см. объявление "inet_pton"
+      E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(36,5):
+      при попытке сопоставить список аргументов "(int, IN_ADDR *)"
+  
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(43,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(63,19): error C2079: "outFile" использует не имеющую определения структуру class "std::basic_ofstream<char,std::char_traits<char>>"
+E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(63,26): error C2440: инициализация: невозможно преобразовать "initializer list" в "int"
+      E:\Projects\Visual Studio\ВВ\8\Общ\Клиент\Клиент\Клиент.cpp(63,26):
+      Инициализатор содержит слишком много элементов
+  

@@ -11,6 +11,7 @@ using namespace std;
 
 const int BUFFER_SIZE = 1024;
 const int DEFAULT_PORT = 12345;
+const string SERVER_IP = "0.0.0.0"; // Слушаем все интерфейсы (можно заменить на конкретный IP)
 
 void xor_encrypt(vector<char>& data, const string& key) {
     for (size_t i = 0; i < data.size(); ++i) {
@@ -35,7 +36,13 @@ int main() {
     sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_port = htons(DEFAULT_PORT);
-    serverAddr.sin_addr.s_addr = INADDR_ANY;
+
+    if (SERVER_IP == "0.0.0.0") {
+        serverAddr.sin_addr.s_addr = INADDR_ANY;
+    }
+    else {
+        inet_pton(AF_INET, SERVER_IP.c_str(), &serverAddr.sin_addr);
+    }
 
     if (bind(serverSocket, (sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
         cerr << "Bind failed: " << WSAGetLastError() << "\n";
@@ -44,7 +51,7 @@ int main() {
         return 1;
     }
 
-    cout << "UDP Server is running on port " << DEFAULT_PORT << "\n";
+    cout << "UDP Server is running on " << SERVER_IP << ":" << DEFAULT_PORT << "\n";
     cout << "Waiting for client requests...\n";
 
     const string SECRET_KEY = "MySecretKey123";
@@ -63,7 +70,8 @@ int main() {
         }
 
         string filename(buffer, bytesReceived);
-        cout << "Received request for file: " << filename << "\n";
+        cout << "Received request for file: " << filename << " from "
+            << inet_ntoa(clientAddr.sin_addr) << ":" << ntohs(clientAddr.sin_port) << "\n";
 
         try {
             size_t dot_pos = filename.find_last_of(".");

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u0421\u0435\u0440\u0432\u0435\u0440\\",
+  "WorkspaceRootPath": "E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u041E\u0431\u0449\\\u0421\u0435\u0440\u0432\u0435\u0440\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AF42FA4-366B-4E3F-BEC8-05ACB04B46BB}|\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.vcxproj|E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2AF42FA4-366B-4E3F-BEC8-05ACB04B46BB}|\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.vcxproj|E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u041E\u0431\u0449\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2AF42FA4-366B-4E3F-BEC8-05ACB04B46BB}|\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.vcxproj|solutionrelative:\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "\u0421\u0435\u0440\u0432\u0435\u0440.cpp",
-              "DocumentMoniker": "E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp",
+              "DocumentMoniker": "E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u041E\u0431\u0449\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp",
               "RelativeDocumentMoniker": "\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp",
-              "ToolTip": "E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp",
+              "ToolTip": "E:\\Projects\\Visual Studio\\\u0412\u0412\\8\\\u041E\u0431\u0449\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp",
               "RelativeToolTip": "\u0421\u0435\u0440\u0432\u0435\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440.cpp",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAswHEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-09T06:34:38.267Z",
               "EditorCaption": ""
