@@ -1,0 +1,5 @@
+﻿  Сервер.cpp
+E:\Projects\Visual Studio\ВВ\8\Сервер\Сервер\Сервер.cpp(72,63): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\Visual Studio\ВВ\8\Сервер\Сервер\Сервер.cpp(98,64): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\Visual Studio\ВВ\8\Сервер\Сервер\Сервер.cpp(106,59): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Сервер.vcxproj -> E:\Projects\Visual Studio\ВВ\8\Сервер\x64\Debug\Сервер.exe
